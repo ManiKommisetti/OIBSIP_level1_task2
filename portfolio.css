@@ -1,0 +1,68 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color:#5F9EA0;
+  color: #333;
+}
+
+header {
+  background-color:red;
+  color:pink;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section  {
+  padding: 20px;
+  background-color:White;
+  color:black;
+  margin-bottom: 20px;
+}
+section h1 {
+  margin-bottom: 10px;
+  color:#00008B;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color:#00008B;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+form label, form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px 20
